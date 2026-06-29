@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3a0150/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0150/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 秦子一卷
+  identifiers:
+    krp: KR3a0150
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0150.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0150_001-CHANT.yaml, hash: 'sha256:311532b324532fd702e1fdf3308af2fcdb89e7314e815c0606e98f46b513f044'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0150_001-CHANT.markers.yaml, hash: 'sha256:b650924f7932d32a13424876a35ccf38c505a2b40ffda3b342d3868b1fb05b1a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0150_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 578
+  label: 秦子
+  type: section
+  level: 1
+hash: sha256:f6ef1697778e4a01c0ea946375ae28baaeb84b96e1d404eb1abd322f76e15c68
